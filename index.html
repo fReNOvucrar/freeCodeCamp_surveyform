@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Survey Form freeCodeCamp</title>
   </head>
   <body>
@@ -14,28 +14,28 @@
       <p id="description">Let us know what you think!</p>
     </header>
     <main>
-      <form method="post" id="survey-form">
-        <fieldset>
-          <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required /></label> 
-          <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required /></label>
-          <label for="number" id="number-label">Age (optional): <input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
-          <label for="dropdown">Were you referred to us through Facebook? 
-            <select id="dropdown" name="dropdown">
-              <option value="">(Selectone)</option>
-              <option value="1">Yes</option>
-              <option value="2">No</option>
-            </select>
-          </label>
-          <label for="satisfaction"><input id="satisfaction" type="radio" name="satisfied" class="inline" value="satisfaction" />Satisfied</label>
-          <label for="satisfaction-second"><input id="satisfaction-second" type="radio" name="satisfied" class="inline" value="satisfaction-second" />Dissatisfied</label>
-          <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" value="1">I accept the terms and conditions
-          </label>
-          <label for="e-signature"><input id="e-signature" type="checkbox" value="2">E-signature
-          </label>
-          <textarea placeholder="Comments..."></textarea>
-        </fieldset>
-        <input id="submit" type="submit" value="submit" />
-      </form>
+        <form method="post" id="survey-form">
+          <fieldset>
+            <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required /></label> 
+            <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required /></label>
+            <label for="number" id="number-label">Age (optional): <input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+            <label for="dropdown">Were you referred to us through Facebook? 
+              <select id="dropdown" name="dropdown">
+                <option value="">(Selectone)</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+            </label>
+            <label for="satisfaction"><input id="satisfaction" type="radio" name="satisfied" class="inline" value="satisfaction" />Satisfied</label>
+            <label for="satisfaction-second"><input id="satisfaction-second" type="radio" name="satisfied" class="inline" value="satisfaction-second" />Dissatisfied</label>
+            <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" value="1">I accept the terms and conditions
+            </label>
+            <label for="e-signature"><input id="e-signature" type="checkbox" value="2">E-signature
+            </label>
+            <textarea placeholder="Comments..."></textarea>
+          </fieldset>
+          <input id="submit" type="submit" value="submit" />
+      </div>
     </main>
   </body>
 </html>

@@ -5,29 +5,69 @@ body {
     background-image: url(https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&w=1600);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
     position: relative;
+    color: white;
   }
-  
+
   .background-image-wrap {
     width: 100%;
     height: 100%;
-    background-color: blue;
-    opacity: 40%;
     position: absolute;
     z-index: 2;
+    background-color: blue;
+    opacity: 40%;
+  }
+
+  main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
   }
   
   header {
-    text-align: center;
-    margin-top: 50px;
-    position: absolute;
-    z-index: 3;
-  }
-  
-  main {
     margin: 0 auto;
     position: absolute;
     z-index: 3;
-  }
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    height: 20%;
+}
+
+    #survey-form {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+    fieldset {
+    background-color: gray;
+    width: 50%;
+    height: 80%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+input {
+    margin-bottom: 20px;
+    font-size: 1.3em
+}
+
+
   
